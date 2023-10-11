@@ -6,14 +6,31 @@ body {
 }
 
 /* 4. Style the product gallery using flexbox. */
-.product-gallery {
+product-gallery {
+  display: flex;
+  align-items: center;
+  
+  
 
-}
+} 
+<div class="product-gallery">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+
+
 
 /* 5. Style the div with the class "product-card" using the box model. */
 /* 6. Add a solid border with any color you like. */
 /* 7. Add background color of white. */
-____ {
+.product-card {
+border: 1px solid black;
+  background-color:lightpink; 
+
+  
+ 
 
 }
 
@@ -38,7 +55,11 @@ ____ {
     color: #e74c3c;
     font-weight: bold;
 }
-
+.product-name:hover {
+  background-color: white;
+  color: #49796B;
+  border: 2px solid #49796B;
+}
 /* Spicy Tasks (note: you may need to search for resources to complete these)
     1. Add hover effects on the product card, like changing the background color or transforming its scale.
     2. Adjust the layout to show 2 or 4 products per row.
